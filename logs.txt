@@ -1,0 +1,35 @@
+2022/08/31 11:38:29 logger initialized successfully
+2022/08/31 11:38:51 routes initialized successfully
+2022/08/31 11:39:35 logger initialized successfully
+2022/08/31 11:39:41 routes initialized successfully
+INFO: 2022/08/31 11:40:28 logger.go:30: Unmarshaling incoming request
+ERROR: 2022/08/31 11:40:28 logger.go:35: cannot unmarshal body, error: json: cannot unmarshal string into Go struct field Register.Value of type int
+INFO: 2022/08/31 11:40:51 logger.go:30: Unmarshaling incoming request
+INFO: 2022/08/31 11:40:51 logger.go:30: Validating data received for operation substraction
+WARNING: 2022/08/31 11:40:51 logger.go:40: cannot substract, value received is greater than existing value
+2022/08/31 11:45:16 logger initialized successfully
+2022/08/31 11:45:17 routes initialized successfully
+INFO: 2022/08/31 11:45:24 logger.go:30: Current Value 0
+INFO: 2022/08/31 11:45:44 logger.go:30: Unmarshaling incoming request
+INFO: 2022/08/31 11:45:44 logger.go:30: Validating data received for operation substraction
+INFO: 2022/08/31 11:45:44 logger.go:30: Current Value 0
+WARNING: 2022/08/31 11:45:44 logger.go:40: cannot substract, value received is greater than existing value
+2022/08/31 11:50:44 logger initialized successfully
+2022/08/31 11:50:44 routes initialized successfully
+INFO: 2022/08/31 11:51:28 logger.go:30: Current Value 0
+INFO: 2022/08/31 11:51:51 logger.go:30: Unmarshaling incoming request
+INFO: 2022/08/31 11:51:51 logger.go:30: Validating data received for operation substraction
+INFO: 2022/08/31 11:51:51 logger.go:30: Current Value 0
+WARNING: 2022/08/31 11:51:51 logger.go:40: cannot substract, value received 80  is greater than existing value 0
+INFO: 2022/08/31 11:52:21 logger.go:30: Unmarshaling incoming request
+INFO: 2022/08/31 11:52:21 logger.go:30: Validating data received for operation addition
+INFO: 2022/08/31 11:52:21 logger.go:30: Adding value 80
+INFO: 2022/08/31 11:52:48 logger.go:30: Unmarshaling incoming request
+INFO: 2022/08/31 11:52:48 logger.go:30: Validating data received for operation substraction
+INFO: 2022/08/31 11:52:48 logger.go:30: Current Value 80
+WARNING: 2022/08/31 11:52:48 logger.go:40: cannot substract, value received 150  is greater than existing value 80
+INFO: 2022/08/31 11:53:06 logger.go:30: Unmarshaling incoming request
+INFO: 2022/08/31 11:53:06 logger.go:30: Validating data received for operation substraction
+INFO: 2022/08/31 11:53:06 logger.go:30: Current Value 80
+INFO: 2022/08/31 11:53:06 logger.go:30: Substracting value 50
+INFO: 2022/08/31 11:53:30 logger.go:30: Current Value 30
